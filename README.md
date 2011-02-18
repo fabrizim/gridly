@@ -37,7 +37,7 @@ Will produce this code:
 An example of nested tags:
     [columns]
         [column flex=1]Column A. [/column]
-        [column flex=4]
+        [column flex=3]
             [columns_1]
                 [column_1]Column B.1.[/column_1]
                 [column_1]Column B.2.[/column_1]
@@ -48,8 +48,8 @@ An example of nested tags:
 Will produce this code:
     
     <div class="line gridly">
-        <div class="unit size2of5">Column A.</div>
-        <div class="unit size3of5 lastUnit">
+        <div class="unit size1of4">Column A.</div>
+        <div class="unit size3of4 lastUnit">
             <div class="line gridly">
                 <div class="unit size1of2">Column B.1.</div>
                 <div class="unit size1of2 lastUnit">Column B.2.</div>
