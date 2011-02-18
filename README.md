@@ -18,7 +18,7 @@ You can nest multiple *[column]* in a *[columns]*.
         
 * _flex_ number of columns to span (default is 1)
 
-\* These shortcodes can be nested as long as you append  _ X after the code.
+\* These shortcodes can be nested as long as you append  \_# after the code where # is the nesting level - see the example for clarification.
 
 ## example
 
