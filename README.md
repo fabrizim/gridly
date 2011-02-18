@@ -5,13 +5,13 @@ Uses OOCSS (https://github.com/stubbornella/oocss).
 
 ## documentation
 
-There are two* shortcodes, [columns] and [column]. Neither can be empty.
+There are two* shortcodes, *[columns]* and *[column]*. Neither can be empty.
 
-You can nest multiple [column] in a [columns].
+You can nest multiple *[column]* in a *[columns]*.
 
-[columns] does not allow any attributes.
+*[columns]* does not allow any attributes.
 
-[column] has the following attributes:
+*[column]* has the following attributes:
 
 
 * _style_ Inline CSS.
