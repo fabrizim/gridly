@@ -5,7 +5,7 @@ Uses OOCSS (https://github.com/stubbornella/oocss).
 
 ## documentation
 
-There are two* shortcodes, *[columns]* and *[column]*. Neither can be empty.
+There are two shortcodes, *[columns]* and *[column]*. Neither can be empty.
 
 You can nest multiple *[column]* in a *[columns]*.
 
