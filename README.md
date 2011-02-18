@@ -3,7 +3,7 @@
 Wordpress plugin to add columns.
 Uses OOCSS (https://github.com/stubbornella/oocss).
 
-## usage
+## documentation
 
 There are two* shortcodes, [columns] and [column]. Neither can be empty.
 
@@ -17,3 +17,6 @@ You can nest multiple [column] in a [columns].
 * _style_ Inline CSS.
         
 * _flex_ number of columns to span.
+
+## example
+
