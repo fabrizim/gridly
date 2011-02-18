@@ -51,7 +51,7 @@ class Gridly_Shortcode
         $cols_shortcode = 'columns_'.($this->level+1);
         
         // replace paragraphs added before and after tags
-        $this->content = preg_replace('#(<p>)?\[(\/?)('.$cols_shortcode.'|'.$col_shortcode.')([^\\]]*)\](<\/p>)?#i', '[${2}${3}${4}]', $this->content);
+        $this->content = preg_replace('#(<p>)?\[(\/?)([a-zA-Z_]+)([^\\]]*)\](<\/p>)?#i', '[${2}${3}${4}]', $this->content);
         
         add_shortcode($col_shortcode, $col_callback);
         add_shortcode($cols_shortcode, $cols_callback);
