@@ -14,8 +14,6 @@ You can nest multiple [column] in a [columns].
 [column] has the following attributes:
 
 
-* style
-  Inline CSS.
+* _style_ Inline CSS.
         
-* flex
-  number of columns to span.
+* _flex_ number of columns to span.
