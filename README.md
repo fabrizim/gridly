@@ -1,7 +1,7 @@
 # gridly
 
 Wordpress plugin to add columns.
-Uses OOCSS (https://github.com/stubbornella/oocss).
+Uses [OOCSS](https://github.com/stubbornella/oocss)
 
 ## documentation
 
