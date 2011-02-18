@@ -16,7 +16,43 @@ You can nest multiple [column] in a [columns].
 
 * _style_ Inline CSS.
         
-* _flex_ number of columns to span.
+* _flex_ number of columns to span (default is 1)
+
+\* These shortcodes can be nested as long as you append  _ X after the code.
 
 ## example
 
+    [columns]
+        [column flex=2]Column One (2/5)[/column]
+        [column flex=3]Column Two (3/5)[/column]
+    [/columns]
+    
+Will produce this code:
+    
+    <div class="line gridly">
+        <div class="unit size2of5">Column One (2/5)</div>
+        <div class="unit size3of5 lastUnit">Column Two (3/5)</div>
+    </div>
+
+An example of nested tags:
+    [columns]
+        [column flex=1]Column A. [/column]
+        [column flex=4]
+            [columns_1]
+                [column_1]Column B.1.[/column_1]
+                [column_1]Column B.2.[/column_1]
+            [/columns_1]
+        [/column]
+    [/columns]
+    
+Will produce this code:
+    
+    <div class="line gridly">
+        <div class="unit size2of5">Column A.</div>
+        <div class="unit size3of5 lastUnit">
+            <div class="line gridly">
+                <div class="unit size1of2">Column B.1.</div>
+                <div class="unit size1of2 lastUnit">Column B.2.</div>
+            </div>
+        </div>
+    </div>
