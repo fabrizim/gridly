@@ -35,6 +35,7 @@ Will produce this code:
     </div>
 
 An example of nested tags:
+
     [columns]
         [column flex=1]Column A. [/column]
         [column flex=3]
